@@ -6,7 +6,7 @@ public class TDCollectionUtil {
 	/*p327ext - Fields START*/
 	
 	public static String getProdType(String prodType){
-		//System.out.println("account.getProdType() in Util: " + prodType);
+		
 		if(prodType != null && prodType.trim().equalsIgnoreCase("LON")){
 			prodType = "401132";
 		}
@@ -26,7 +26,7 @@ public class TDCollectionUtil {
 			 int spacesCount = 18-accountNum.length();
 			 accountNum = accountNum + patchEmptySpaces(spacesCount);
 		 }
-		 //System.out.println("account.getAccountNum().length() in util: " + accountNum.length());
+		 
 		return accountNum;
 	}
 	
