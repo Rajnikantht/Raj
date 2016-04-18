@@ -827,6 +827,8 @@ public class TDCollectionUtil {
 			return date;
 		}
 	
-	/*Rjani END*/
+		public static String getPortfolioLocCode101() {
+			return "00";
+		}
 	
 }
